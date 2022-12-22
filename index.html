@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivana Imagez</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Assets/CSS/Style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="Assets/images/logo.png" alt="Olivana logo" title="Olivana" id="logo"></a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#second">Portraits</a></li>
+            <li id="port" onclick="showPort()"><a href="#">Portfolio <i class="fa-solid fa-angle-down icdw"></i></a>
+                <ul id="pdropdown">
+                    <li><a href="">Portrait / Family</a></li>
+                    <li><a href="">Maternity / Newborn</a></li>
+                    <li><a href="">Commercial Advert</a></li>
+                    <li><a href="">Outdoors</a></li>
+                    <li><a href="">Pre-Wedding</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#price" onclick="openPrices()">Pricing</a></li>
+            <li><a href="#social">Contact</a></li>
+        </ul>
+        <a href="#forth"><button>Book a session</button></a>
+    </nav>
+    <article>
+        <section class="first">
+            <h3>Welcome to Olivana Imagez! Where photos don't just create memories, they define moments.</h3>
+            <p>Our passion is to document moments of love to create timeless, beautiful images as memories. We love capturing events, headshots, special activities and also families. Our style is fun, natural and understated. Looking forward to capturing your special day for eternity!</p>
+        </section>
+        <section id="second">
+            <img src="Assets/images/000008.jpeg" alt="">
+            <img src="Assets/images/000000.jpeg" alt="">
+            <img src="Assets/images/000002.jpeg" alt="">
+            <img src="Assets/images/000045.jpeg" alt="">
+            <img src="Assets/images/000003.jpeg" alt="">
+            <img src="Assets/images/000001.jpeg" alt="">
+        </section>
+        <section class="first third">
+            <h3>We want to help you share your story.</h3>
+            <p>We are passionate about curating, cultivating and capturing visual stories of people thriving. People are the focal point. Whether you, your customer or your partners, every photograph is intended for others, even when there is no one present in the image.</p>
+        </section>
+
+        <!-- Price section -->
+        <section id="price">
+            <div id="prices">
+                <div>
+                    <h4>PRICING / SERVICES</h4>
+                    <p>Depending on the package, details, and any modifications based on the customers preference.  </p>
+                </div>
+                <div class="priced">
+                    <div class="imgp">
+                        <img src="Assets/images/fp1.jpeg" alt="">
+                    </div>
+                    <div class="pdetails">
+                        <h2>Portrait Session</h2>
+                        <p>Starts at - $150</p>
+                        <p>This covers Family portraits, Professional or Personal headshots, Senior Photos, and Non-Newborn shoots. Up to 4 people are allowed, $10 additional per person after 4. You get 20-30 edited images approximately.</p>
+                        <a href="#forth">Start Now</a>
+                    </div>
+                </div>
+                <div class="priced">
+                    <div class="pdetails">
+                        <h2>Maternity / Baby Portraits</h2>
+                        <p>Approximately 2 hours - Starting $300</p>
+                        <h4>NEWBORN - 6 MONTHS OLD</h4>
+                        <p>20-30 edited images. 2 hour session, 3 poses maximum.</p>
+                        <h4>**NO PARENTS OR SIBLINGS IN THE PHOTOS**</h4>
+                        <p>Parent or sibling in photo, then the fee is $350</p>
+                        <h4>Maternity Photos</h4>
+                        <p>$400 for 30-40 edited images approximately, and shoot could last 1.5-2 hours</p>
+                        <a href="#forth">Start Now</a>
+                    </div>
+                    <div class="imgp M">
+                        <img src="Assets/images/mindy-olson-p-EL5IhM6x9qo-unsplash.jpg" alt="">
+                    </div>
+                </div>
+                <div class="priced">
+                    <div class="imgp">
+                        <img src="Assets/images/tp.jpeg" alt="">
+                    </div>
+                    <div class="pdetails">
+                        <h2>Specialty Session</h2>
+                        <p>Starting at $450</p>
+                        <p>Custom work is anything from boudoir, sports events, speaking events, costume/cosplay, etc. The maximum shooting time will not exceed 3 hours, and price is set according to project details.</p>
+                        <a href="#forth">Start Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="forth">
+            <div id="left">
+                <h3>Interested in booking a session?</h3>
+                <p>Thank you so much for stopping by! I am so excited to help you in your search for the right photographer for you!</p>
+                <p>Use this form to ask me any questions or to inquire about booking a session. <br>I can't wait to hear from you!</p>
+                <img src="Assets/images/website.png" alt="">
+            </div>
+            <div id="right">
+                <form action="" method="post">
+                    <label for="">First Name <br><input type="text" required></label><br>
+                    <label for="">Last Name <br><input type="text" name="" id="" required></label><br>
+                    <label for="">Email <br><input type="email" name="" id="" required></label><br>
+                    <label for="">Phone Number <br><input type="tel" name="" id="" required></label><br>
+                    <label for="">Let Me Know Which Service You Are Interested In! <br>
+                        <select name="" id="" required>
+                             <option value="">Select an option...</option>
+                            <option value="">Family Portrait Session</option>
+                            <option value="">Child's Portrait Session</option>
+                            <option value="">Baby Portrait Session</option>
+                            <option value="">Adult Portrait Session</option>
+                            <option value="">Commercial Advert Session</option>
+                            <option value="">Pre-Wedding Photo Session</option>
+                            <option value="">Birthday Session</option>
+                            <option value="">Outdoor Session</option>
+                            <option value="">Home Service</option>
+                        </select>
+                    </label><br>
+                    <label for="">How did you hear about Olivana Imagez? <br><input type="text" required></label><br>
+                    <label for="">Anything Else I Should Know? <br> <textarea name="" id="" cols="60" rows="2"></textarea></label><br>
+                    <button>SEND THE FORM > > ></button>
+                </form>
+            </div>
+        </section>
+        <Section  id="about">
+            <div id="aboutl">
+                <h5>About Me</h5>
+                <p>Hi, my name is Oliva Nana</p>
+                <h3>I capture & curate visual stories causing you to linger.</h3>
+                <p>I am passionate about crafting contexts where people flourish through curating, cultivating and capturing stories. Watching the world move captivates and inspires me. I love finding unique and creative ways to curate the stories around me into visual narratives. Every element of photography is centered around people. Even when there is no human to be seen, the image itself is designed to engage someone's eye. People are the focal point and it's light that captures them.</p>
+                <p>Born in the City of Benin, Edo State. I grew up watching the sun rise and set anf the elegance of nature. As the swell rose and fell, the light danced around me and those I was with. It was here my curiosity and passion for light was formed. When the camera first landed in my hands the transition was seamless.</p>
+                <p> I am lifestyle photographer now live in Asaba, Delta State and work as a Freelancer in Photography and Web-Development. I process the world in pictures, looking forward to capturing your special day for eternity!</p>
+                <a href="#forth"><button>Get In Touch</button></a>
+            </div>
+            <div id="aboutr">
+                <img src="Assets/images/about.png" alt="">
+            </div>
+        </Section>
+    </article>
+    <footer>
+       <div id="social">
+        <a href="https://instagram.com/0livana?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/0livana?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/0livana"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://twitter.com/0livana?t=xPlkz3tyAYt1OZqj-XBcJg&s=09"><i class="fa-brands fa-twitter"></i></a>
+        <a href="mailto:nanaaoliva@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        <a href="tel:+2347065539957"><i class="fa-solid fa-phone-volume"></i> +234-7065539957</a>
+       </div>
+       <p>&copy; 2022 Olivana Imagez. All Rights Reserved</p>
+    </footer>   
+    <script src="Assets/JS/script.js"></script> 
+</body>
+</html>

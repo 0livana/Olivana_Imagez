@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a:visited{
+    color: #5b5b5b;
+
+}
+a{
+    color: #5b5b5b;
+}
+button:hover{
+    cursor: pointer;
+}
+
+/* Styles for Nav ######################################*/
+nav{
+    background: rgba(245, 245, 245, 0.234);
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0;
+    color: #211f1f;
+    font-size: 1.2em;
+}
+nav button{
+    border: none;
+    width: 8em;
+    height: 3em;
+    margin-left: 40vw;
+    font-size: 1.2em; 
+    color: #5b5b5b;
+    background: rgba(245, 245, 245, 0.329);
+}
+#logo{
+    width: 60px;
+    padding: 0;
+    margin: 0;
+    margin-left: 1em
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+li{
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+#port{
+    position: relative;
+}
+#port ul{
+    width: 12em;
+    position: absolute;
+    display: none;
+    top: 1.7em;
+    font-weight: 400;
+    font-size: 0.7em;
+}
+#port ul li{
+    margin: 0.5em 0;
+}
+.icdw{
+    font-size: 0.8em;
+}
+
+/* Styles for --------------------------------------------------------article  */
+
+/* Style for ---------------------------------------------Landing part */
+.first{
+    margin-top: 5.9em;
+    width: 100vw;
+    height: 60vh;
+    background: url(../images/el.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2em;
+}
+.first>*{
+    width: 35em;
+    text-align: center; 
+}
+.first h3{
+    font-size: 1.6em;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 1.5em;
+}
+.first p{
+    color: white;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+/* Styles for -----------------------------------------content */
+#second{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+}
+#second img{
+    width: 25em;
+    height: 27em;
+    margin: 1.5em;
+    border-radius: 10px;
+}
+#second img:hover{
+    width: 30em;
+    height:32em ;
+    margin: 4em;
+    transition: all 3s ease-in;
+}
+.third{
+    color: #5b5b5b;
+    background: white;
+    margin-top: 4em;
+    justify-content: flex-start;
+    height: 40vh;
+}
+.third p{
+    color: #777777;
+}
+#forth{
+    margin: 0 2.5em;
+    display: flex;
+    background: rgba(235, 234, 234, 0.523);
+}
+#forth>*{
+    margin: 2.5em 4em;
+}
+#left{
+    width: 60%;
+    text-align: center;
+    line-height: 2em;
+    color: #5b5b5b;
+}
+#left img{
+    border: 1.5em solid white;
+    width: 28em;
+    height: 28em;
+    margin-top: 3em;
+    
+}
+#left h3{
+    font-size: 1.8em;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.707);
+}
+#left p{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+#right{
+    background: white;
+    padding: 3em 1.5em;
+    color: #5b5b5b;
+    font-weight: 300;
+}
+#right input, select, textarea{
+    width: 38.2em;
+    height: 3em;
+    margin: 0.5em 0;
+    margin-bottom: 2em;
+    color: #5b5b5b;
+}
+textarea{
+    height: 5.6em;
+}
+form button{
+    width: 16.5em;
+    height: 3.5em;
+    font-size: 0.8em;
+    margin-left: 58%;
+    margin-top: 2em;
+    background: #c4bf9d;
+    color: white;
+    letter-spacing: 0.1rem;
+    border: none;
+}
+.priced img{
+    width: 100%;
+    height: 372px;
+}
+#price{
+    display: none;
+    width: 100%;
+    margin-bottom: 3em;
+}
+#prices{
+    margin:0 11em;
+    line-height: 2em;
+
+}
+.priced{
+    width: 100%;
+    display: flex;
+    margin: 3em 0;
+    
+}
+.imgp{
+    width: 50%;
+    margin-right: 6%;
+}
+.pdetails{
+    width: 44%;
+    
+}
+.M{
+    margin-right: 0;
+    margin-left: 6%;
+}
+#prices p{
+    color: #777777;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+#prices >div:nth-of-type(1){
+    color: #5b5b5b;
+}
+#prices >div:nth-of-type(1)>*{
+   font-weight: 400;
+   font-size: 1.5em;
+   line-height: 1.5em;
+}
+.priced h4{
+    color: #777777;
+    font-weight: 400;
+    margin-top: 0.8em;
+}
+.pdetails p:nth-of-type(1){
+    color: #111111!important;   
+}
+.pdetails h2{
+    font-weight: 400;
+    font-size: 1.7em;
+}
+
+/* About me ---------------------------------section*/
+#about{
+    width: 100vw;
+    display: flex;
+    margin-top: 5em;
+
+}
+#aboutl{
+    text-align: center;
+    color: #5b5b5b;
+    margin: 0 2em; 
+}
+#aboutl h5{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 1em;
+}
+#aboutl h3{
+    font-size: 2em;
+    font-weight: 400;
+}
+#aboutl p{
+    font-style: italic;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    font-weight: 300;
+    margin: 1em 0;
+}
+#aboutl button{
+    border: none;
+    width: 10em;
+    height: 3em;
+    background: #008aa9;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Styles for footer####################################### */
+footer{
+    margin: 3em 0 1em 0;
+    display: flex;
+    justify-content: center;
+    color: #5b5b5b;
+}
+#social{
+    margin-right: 2em;
+}
+#social>*{
+    margin: 0 0.5em;
+    color: #5b5b5b;
+}
+
+/* Media------------------------------------------------------- queries */
+@media all and (max-width:579px){
+    nav{
+        width: 100%;
+        font-size: 0.8em;
+    }
+    #logo{
+        width: 40px;
+    }
+    nav button{
+        height: 2em;
+    }
+    .first{
+        width: 100%;
+        font-size: 0.5em;
+        height: 20%;
+        margin-top:11em
+    }
+}
